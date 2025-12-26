@@ -9,6 +9,7 @@
 body {
     font-family: "Manrope", sans-serif;
     background: #FFFFFF;
+    padding: 0px 20px;
 
 }
 
@@ -56,9 +57,28 @@ body {
     font-weight: 700;
     font-size: 20px;
     text-align: center;
-
-
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition:
+        background 0.25s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
 }
+
+.hero-button:hover {
+    background: #7A26E8;
+    /* slightly darker */
+    transform: translateY(-2px);
+    /* subtle lift */
+    box-shadow: 0 10px 20px rgba(140, 48, 245, 0.35);
+}
+
+.hero-button:active {
+    transform: translateY(0);
+    box-shadow: 0 5px 10px rgba(140, 48, 245, 0.25);
+}
+
 
 .hero-img {
     margin-top: 100px;
