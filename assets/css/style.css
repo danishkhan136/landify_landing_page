@@ -163,11 +163,14 @@ body {
     position: absolute;
     top: -60px;
     left: 34px;
+    z-index: 2;
 }
 
 .stories-text {
     display: grid;
     flex-direction: column;
+    position: relative;
+    z-index: 1;
 
 }
 
@@ -498,7 +501,9 @@ body {
     }
 
     .stories-text {
+        position: relative;
         justify-self: end;
+        z-index: 1;
     }
 }
 
@@ -520,6 +525,8 @@ body {
     }
 
     .stories-text {
+        position: relative;
+        z-index: 2;
         display: block;
     }
 
@@ -554,6 +561,8 @@ body {
     }
 
     .quote-lg {
+        position: absolute;
+        z-index: 1;
         left: -12px;
     }
 
@@ -601,6 +610,8 @@ body {
     }
 
     .quote-lg {
+        position: absolute;
+        z-index: 1;
         left: 78px;
     }
 
@@ -636,7 +647,14 @@ body {
         align-items: center;
     }
 
+    .stories-text {
+        position: relative;
+        z-index: 2;
+    }
+
     .quote-lg {
+        position: absolute;
+        z-index: 1;
         left: 190px;
     }
 
@@ -703,6 +721,8 @@ body {
 @media (min-width: 992px) {
 
     .quote-lg {
+        position: absolute;
+        z-index: 2;
         top: -60px;
         left: 34px;
     }
@@ -714,6 +734,17 @@ body {
     .hero-text {
         font-size: 72px;
         line-height: 98px;
+    }
+
+    .stories-text {
+        left: 100px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .quote-lg {
+        position: absolute;
+        z-index: 1;
     }
 
 
@@ -782,7 +813,15 @@ body {
 @media (min-width: 1200px) {
 
     .stories-text {
+        position: relative;
         justify-content: end;
+        z-index: 2;
+        left: 0px;
+    }
+
+    .quote-lg {
+        position: absolute;
+        z-index: 1;
     }
 
     .mockup {
