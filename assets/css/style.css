@@ -542,6 +542,10 @@ body {
 
     }
 
+    .stories-text h2 {
+        font-size: 44px;
+    }
+
     .features-achieve {
         font-size: 32px;
         line-height: 42px;
@@ -865,7 +869,7 @@ body {
 
     .mockup-2 {
         bottom: 0px;
-        left: 360px;
+        left: 314px;
         z-index: 1;
     }
 
