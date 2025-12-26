@@ -68,9 +68,7 @@ body {
 
 .hero-button:hover {
     background: #7A26E8;
-    /* slightly darker */
     transform: translateY(-2px);
-    /* subtle lift */
     box-shadow: 0 10px 20px rgba(140, 48, 245, 0.35);
 }
 
@@ -175,8 +173,6 @@ body {
 .stories-header {
     position: relative;
     margin-bottom: 64px;
-    /* margin-left: 118px; */
-
 }
 
 .quote-lg {
@@ -214,7 +210,6 @@ body {
     margin-top: 96px;
 }
 
-/* CARD */
 .testimonial-card {
     background: #fff;
     padding: 32px;
@@ -226,7 +221,6 @@ body {
     margin-left: auto;
 }
 
-/* LOGO */
 .brand-logo {
     height: 40px;
     margin-bottom: 24px;
@@ -312,7 +306,7 @@ body {
     gap: 30px;
 }
 
-/* Purple box */
+/* purple box */
 .purple-box {
     width: 100%;
     height: 540px;
