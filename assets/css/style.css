@@ -9,7 +9,6 @@
 body {
     font-family: "Manrope", sans-serif;
     background: #FFFFFF;
-    padding: 0px 20px;
 
 }
 
@@ -162,7 +161,7 @@ body {
 
 .stories {
     background: #D5FAFC;
-    padding: 96px 0;
+    padding: 96px;
 }
 
 .stories-row {
@@ -581,14 +580,14 @@ body {
     .mockup-1 {
         transform: rotate(270deg);
         top: 0;
-        left: 44px;
+        left: 20px;
     }
 
     .mockup-2 {
         transform: rotate(270deg);
         top: 202px;
         left: auto;
-        right: 20px;
+        right: -12px;
     }
 
     .quote-lg {
@@ -628,7 +627,7 @@ body {
     .mockup-1 {
         transform: rotate(270deg);
         top: -90px;
-        left: 62px;
+        left: 38px;
     }
 
 
@@ -637,7 +636,7 @@ body {
         transform: rotate(270deg);
         top: 148px;
         left: auto;
-        right: 38px;
+        right: 12px;
     }
 
     .quote-lg {
