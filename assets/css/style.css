@@ -634,7 +634,6 @@ body {
         background-repeat: no-repeat;
         background-position: center top;
 
-        /* MOBILE: stretch vertically */
         background-size: 100% 100%;
         min-height: 100vh;
 
@@ -652,7 +651,6 @@ body {
         background-repeat: no-repeat;
         background-position: center top;
 
-        /* MOBILE: stretch vertically */
         background-size: 100% 100%;
         min-height: 100vh;
 
@@ -717,7 +715,6 @@ body {
 @media (min-width: 768px) {
     .hero {
         background-size: contain;
-        /* compress, no crop */
         min-height: 80vh;
     }
 
@@ -819,7 +816,6 @@ body {
 @media (min-width: 992px) {
     .hero {
         background-size: cover;
-        /* premium look */
         background-position: center;
         min-height: 100vh;
     }
