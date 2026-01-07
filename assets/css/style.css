@@ -807,6 +807,14 @@ body {
         margin: 0 auto;
     }
 
+    .stories-right {
+        margin-top: 0px;
+    }
+
+    .stories-row {
+        gap: 32px;
+    }
+
     .details {
         margin: 32px auto 0;
         max-width: 100%;
