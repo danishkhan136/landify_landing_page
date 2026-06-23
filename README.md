@@ -13,7 +13,7 @@ This project is based on a professional app/product landing page layout and incl
 Add your deployed project link here:
 
 ```text
-https://danishkhan136.github.io/landify_landing_page/
+(https://danishkhan136.github.io/landify_landing_page/)
 ```
 
 ## Project Preview
