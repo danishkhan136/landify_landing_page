@@ -12,17 +12,9 @@ This project is based on a professional app/product landing page layout and incl
 
 Add your deployed project link here:
 
-```text
-(https://danishkhan136.github.io/landify_landing_page/)
-```
 
-## Project Preview
+https://danishkhan136.github.io/landify_landing_page/
 
-> Add your project screenshot here after uploading an image to your repository.
-
-```md
-![Landify Landing Page Preview](./assets/images/Cover%20Image.png)
-```
 
 ## About the Project
 
